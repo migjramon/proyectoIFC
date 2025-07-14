@@ -1,0 +1,19 @@
+ifcopenshell:
+Estoy desarrollando un editor IFC en Python usando PyQt5 y ifcopenshell. El programa actual permite abrir, editar y crear archivos IFC, así como calcular áreas/volúmenes y exportar resúmenes.
+Ahora deseo rediseñar la interfaz gráfica, reemplazando los botones por un menú estructurado, e integrar mejor las funcionalidades existentes (como integrar las funcionalidades de la cuarta y quinta dimensión BIM, creación de zapatas, columnas, muros, etc.), además de organizar el código con buenas prácticas (modularidad, control de clases, etc.).
+El menú inicial podría estar estructurado de la forma (sin que sea necesario codificar todo desde un inicio):
+Archivo: Nuevo, Abrir, Cerrar, importar, exportar, ¿fusionar?.
+Editar: deshacer, rehacer, buscar por ID y/o buscar por texto, filtros, preferencias.
+Objetos constructivos (3D): Materiales, zapatas, contratrabes, trabes, muros, ventanas, puertas, ...
+Gestion: programar(4D), Costos (5D), ...
+
+Los archivos fuente se encuentran en:
+https://github.com/migjramon/proyectoIFC.git
+
+
+¿Puedes ayudarme a estructurar esta nueva interfaz y reorganizar el código base para facilitar su crecimiento, procurando agregar la documentación necesaria para mejor comprensión del código?
+
+
+
+
+
